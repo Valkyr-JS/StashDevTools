@@ -1,0 +1,3 @@
+[submodule "STASH"]
+	path = STASH
+	url = git@github.com:Valkyr-JS/stash.git
