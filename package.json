@@ -1,11 +1,12 @@
 {
   "name": "stashdevtools",
   "version": "1.0.0",
-  "description": "Plugin development tools for Stash",
+  "description": "Plugin development tools for Stash.",
   "main": "index.js",
   "scripts": {
-    "STASH-generate": "cd ./STASH && mingw32-make generate",
-    "STASH-pre-ui": "cd ./STASH && mingw32-make pre-ui"
+    "types--codegen": "cd ./stash-types && graphql-codegen --config ./codegen.ts",
+    "STASH--generate": "cd ./STASH && mingw32-make generate",
+    "STASH--pre-ui": "cd ./STASH && mingw32-make pre-ui"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Valkyr-JS/StashDevTools/issues"
   },
-  "homepage": "https://github.com/Valkyr-JS/StashDevTools#readme"
+  "homepage": "https://github.com/Valkyr-JS/StashDevTools#readme",
+  "dependencies": {
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/client-preset": "^4.3.2",
+    "@graphql-codegen/introspection": "^4.0.3",
+    "typescript": "^5.5.4"
+  }
 }
