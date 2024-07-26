@@ -4,7 +4,8 @@
   "description": "Plugin development tools for Stash",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "STASH-generate": "cd ./STASH && mingw32-make generate",
+    "STASH-pre-ui": "cd ./STASH && mingw32-make pre-ui"
   },
   "repository": {
     "type": "git",
