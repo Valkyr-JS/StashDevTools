@@ -5,7 +5,7 @@ Plugin development tools for Stash.
 ## Setup
 
 1. Clone this repository and install dependencies (`npm install`).
-2. Follow the instructions for Pre-requisites and Environment in the [Stash development docs](https://github.com/Valkyr-JS/stash/blob/f79677ba96b745ab50a0176e946647dea6951949/docs/DEVELOPMENT.md).
+2. Follow the instructions for Pre-requisites and Environment in the [Stash development docs](https://github.com/stashapp/stash/blob/f79677ba96b745ab50a0176e946647dea6951949/docs/DEVELOPMENT.md).
    - Stash Dev Tools is based on the Windows install. Other OS may require the `package.json` scripts to be amended.
 3. Run the `STASH--pre-ui` script.
 4. Run the `STASH--generate` script.
