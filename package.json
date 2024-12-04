@@ -4,10 +4,10 @@
   "description": "Plugin development tools for Stash.",
   "main": "index.js",
   "scripts": {
-    "STASH--generate": "cd ./STASH && mingw32-make generate",
-    "STASH--pre-ui": "cd ./STASH && mingw32-make pre-ui",
-    "STASH--update": "git submodule update --remote STASH",
-    "stash-types--codegen": "cd ./stash-types && graphql-codegen --config ./codegen.ts"
+    "stash:generate": "cd ./stash && mingw32-make generate",
+    "stash:pre-ui": "cd ./stash && mingw32-make pre-ui",
+    "stash:update": "git submodule update --remote stash",
+    "stash-types:codegen": "cd ./stash-types && graphql-codegen --config ./codegen.ts"
   },
   "repository": {
     "type": "git",
