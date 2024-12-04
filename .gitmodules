@@ -1,3 +1,0 @@
-[submodule "STASH"]
-	path = STASH
-	url = git@github.com:stashapp/stash.git
